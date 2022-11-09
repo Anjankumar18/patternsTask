@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern</title>
+</head>
+<body>
+    <p id="patterns"></p>
+    <script>
+        let num=10;
+        let text="";
+        for (let i = 1; i < 5 ; i++){   
+            for (let j = 1 ; j <= num ; j++){
+                text += "*";
+            }
+            num=num-3;
+        text += "<br>";
+        }
+    document.write(text);
+</script>
+    
+</body>
+</html>
